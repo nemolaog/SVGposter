@@ -1,13 +1,86 @@
-# Animation, data retrieval all-in-one with Greensock and Waypoint
+# SVRinfographic
 
-### Updates - had to change the DB setup a bit and how the event handing works
+To introduct the color and cards types in Magic: The Gathering
 
-I updated the label row in the DB to match the IDs on the SVGs themselves, not the section tags. This works a little better - you can't add event handling to object tags (forgot about that). There are other ways to do this by exposing the functionality in the main .js file to the script inside the SVGs - if you're having issues making this work, we can discuss over the weekend / next week (send repo links with questions).
+### Prerequisites
 
-When you mouseover the top graphic, the XHR (fetch) request gets fired via the getData function invocation at the end of the runAnimation function. It passes the ID through to the getData function, which in turn runs the php file and passes that ID in as a query parameter.
+Adobe Illustrator CC, installed in Adobe cloud
+Sublime text3, installed in sublime text official website
 
-Data comes back, gets passed into the parseData function, at which point you can do whatever you want with it. Refer to last week's car example to see how to put data into HTML elements (it'll be pretty similar for SVG text).
+```
+Go to https://www.sublimetext.com/3
+click Windows 64 bit if you are using Windows 64 bit system
+Run the file you just downloaded
+```
 
-Good luck!
+### Installing
 
-TVR
+A step by step series of examples that tell you how to get a development env running
+
+Say what the step will be
+
+```
+Give the example
+```
+
+And repeat
+
+```
+until finished
+```
+
+End with an example of getting some data out of the system or using it for a little demo
+
+## Running the tests
+
+Explain how to run the automated tests for this system
+
+### Break down into end to end tests
+
+Explain what these tests test and why
+
+```
+Give an example
+```
+
+### And coding style tests
+
+Explain what these tests test and why
+
+```
+Give an example
+```
+
+## Deployment
+
+Add additional notes about how to deploy this on a live system
+
+## Built With
+
+* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
+* [Maven](https://maven.apache.org/) - Dependency Management
+* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
+
+## Contributing
+
+Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
+
+## Versioning
+
+We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
+
+## Authors
+
+* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
+
+See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+
+## Acknowledgments
+
+* Hat tip to anyone whose code was used
+* Inspiration
+* etc
